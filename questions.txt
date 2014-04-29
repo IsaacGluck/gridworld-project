@@ -1,0 +1,15 @@
+Set 7
+ 1. act(), getActors(), processActors(), getMoveLocations(), 
+ 2.
+ 3.
+ 4.
+ 5.	
+
+
+What methods are implemented in Critter?
+What are the five basic actions common to all critters when they act?
+Should subclasses of Critter override the getActors method? Explain.
+Describe three ways that a critter could process actors.
+What three methods must be invoked to make a critter move? Explain each of
+these methods.
+6. Why is there no Critter constructor?
