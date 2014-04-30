@@ -15,3 +15,17 @@ Set 7
 
  6. Why is there no Critter constructor?
  	It does not contain instance variables that need to be set up nor does it take any user input.
+
+
+Set 8
+1. 
+
+2.
+
+3.
+
+4.
+
+5.
+
+6.
