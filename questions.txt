@@ -15,3 +15,18 @@ Set 7
 
  6. Why is there no Critter constructor?
  	It does not contain instance variables that need to be set up nor does it take any user input.
+
+
+Set 8
+1. Because some of the methods that act calls such as processActors and makeMove are overwritten in ChameleonCritter and serve a different purpose.
+
+
+2. Because all it wants to do is just change the direction, but then it can call all the built in makeMove funcitons in the Critter class.
+
+3.Save the current location in a variable, and then create a flower and add it to this locaiton. (SAme as in Bug class)
+
+4. It wants to use the same behavior as Crriter
+
+5. The Actor class
+
+6. It can use getGrid(). It gets it from Actor (inherited).
