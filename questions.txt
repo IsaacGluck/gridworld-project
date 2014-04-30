@@ -1,15 +1,17 @@
 Set 7
- 1. act(), getActors(), processActors(), getMoveLocations(), 
- 2.
- 3.
- 4.
- 5.	
+ 1. What methods are implemented in Critter?
+ 	act(), getActors(), processActors(ArrayList<Actor> acotrs), getMoveLocations(), selectMoveLocation(ArrayList<Location> locs), makeMove(Location loc) 
 
+ 2. What are the five basic actions common to all critters when they act?
+ 	Getting a list of other actors, processing that list, getting locations to move to, selectiong one of them, and moving to the selected location
+ 3.Should subclasses of Critter override the getActors method? Explain.
+ 	Only if they wish to get actors that are not directly neighboring them.
 
-What methods are implemented in Critter?
-What are the five basic actions common to all critters when they act?
-Should subclasses of Critter override the getActors method? Explain.
-Describe three ways that a critter could process actors.
-What three methods must be invoked to make a critter move? Explain each of
-these methods.
-6. Why is there no Critter constructor?
+ 4. Describe three ways that a critter could process actors.
+ 	New actors could be added to blank spaces, existing actors could be removed, or existing actors could be replaced.
+ 
+ 5. What three methods must be invoked to make a critter move? Explain each of these methods.
+ 	getMoveLocations(), selectMoveLocation(ArrayList<Location> locs), and makeMove(Location loc)
+
+ 6. Why is there no Critter constructor?
+ 	It does not contain instance variables that need to be set up nor does it take any user input.
