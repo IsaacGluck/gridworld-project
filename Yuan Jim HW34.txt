@@ -1,3 +1,9 @@
+Jim Yuan
+<https://github.com/IsaacGluck/gw45-psychic-octo-meme>
+APCS pd 8
+HW34 -- GridWorld, Part 4
+2014-04-29
+
 Set 7
  1. What methods are implemented in Critter?
  	act(), getActors(), processActors(ArrayList<Actor> acotrs), getMoveLocations(), selectMoveLocation(ArrayList<Location> locs), makeMove(Location loc) 
@@ -30,3 +36,22 @@ Set 8
 5. The Actor class
 
 6. It can use getGrid(). It gets it from Actor (inherited).
+
+
+Do You Know?
+Set 9
+//Jim's part; could not open anything gridworld //related: "could not find or load main class" //error
+
+1.CrabCritter doesn't override the processActors method because it inherits the method with its functionality from the Critter class it extends.
+
+2.First, it finds the Actors in front of it, and it it finds any it will eat them. Then it will move. If it doesn't move, it'll turn randomly left or right, so likely at that point, the crab will be able to move, and won't keep eating adjacent Actors.
+
+3.The getLocationsInDirections method is used in CrabCritter because the CrabCritter has to know exactly where it can move and if there are nom-noms to eat at those locations.
+
+4.(4,3);(4,4);(4,5)
+
+5.A Critter looks at all neighboring grid locations, and picks up an object; meanwhile, a CrabCritter will eliminate an Actor(s). However, they are similar in that they remove an Actor from its original location.
+
+6.A CrabCritter determines when it turns instead of moving randomly.
+
+7.The CrabCritter objects don't eat each other because in the Critter's processActors method, it makes an special case, that CrabCritter shall not eat rocks or other Critters.
