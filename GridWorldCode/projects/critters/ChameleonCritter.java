@@ -36,8 +36,16 @@ public class ChameleonCritter extends Critter
     public void processActors(ArrayList<Actor> actors)
     {
         int n = actors.size();
-        if (n == 0)
+        if (n == 0){
+            Color c = getColor();
+            int red = (int) (c.getRed() * (1 - 0.05));
+            int green = (int) (c.getGreen() * (1 - 0.05));
+            int blue = (int) (c.getBlue() * (1 - 0.05));
+
+            setColor(new Color(red, green, blue));
+            
             return;
+        }
         int r = (int) (Math.random() * n);
 
         Actor other = actors.get(r);
