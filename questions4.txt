@@ -1,4 +1,4 @@
-NAME: Ben Rothman, Jim Yuan, Isaac Gluck
+NAME: Ben Rothman, Jim Yuan, Isaac Gluck, Alicia Chen
 TEAM NAME: gw450-psychic-octo-meme
 
 git@github.com:IsaacGluck/gw45-psychic-octo-meme.git
@@ -11,8 +11,7 @@ HW34 -- GridWorld, Part 4
 
 
 
-
-
+Do you know?
 Set 7
  1. What methods are implemented in Critter?
  	act(), getActors(), processActors(ArrayList<Actor> acotrs), getMoveLocations(), selectMoveLocation(ArrayList<Location> locs), makeMove(Location loc) 
@@ -32,6 +31,7 @@ Set 7
  	It does not contain instance variables that need to be set up nor does it take any user input.
 
 
+Do you know?
 Set 8
 1. Because some of the methods that act calls such as processActors and makeMove are overwritten in ChameleonCritter and serve a different purpose.
 
