@@ -1,4 +1,4 @@
-NAME: Ben Rothman, Jim Yuan, Isaac Gluck
+NAME: Ben Rothman, Jim Yuan, Isaac Gluck, Alicia Chen
 TEAM NAME: gw450-psychic-octo-meme
 
 git@github.com:IsaacGluck/gw45-psychic-octo-meme.git
