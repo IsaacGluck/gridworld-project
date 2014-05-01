@@ -1,3 +1,18 @@
+NAME: Ben Rothman, Jim Yuan, Isaac Gluck
+TEAM NAME: gw450-psychic-octo-meme
+
+git@github.com:IsaacGluck/gw45-psychic-octo-meme.git
+
+APCS pd 8
+
+HW34 -- GridWorld, Part 4
+
+2014-04-29
+
+
+
+
+
 Set 7
  1. What methods are implemented in Critter?
  	act(), getActors(), processActors(ArrayList<Actor> acotrs), getMoveLocations(), selectMoveLocation(ArrayList<Location> locs), makeMove(Location loc) 
