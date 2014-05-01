@@ -1,20 +1,22 @@
 Set 10
 1. Where is the isValid method specified? Which classes provide an
 implementation of this method?
-   It's specified in the Grid interface. BoundedGrid and UnboundedGrid.
+	It's specified in the Grid interface. BoundedGrid and UnboundedGrid.
 
 2. Which AbstractGrid methods call the isValid method? Why don’t the
 other methods need to call it?
-   getValidAdjacentLocations(), the other methods call getValidAdjacentLocations() so they are indeirectly calling it.
+	getValidAdjacentLocations(), the other methods call getValidAdjacentLocations() so they are indeirectly calling it.
 
 3. Which methods of the Grid interface are called in the getNeighbors
 method? Which classes provide implementations of these methods?
-   getOccupiedAdjacentLocations(), AbstractGrid, BoundedGrid, UnboundedGrid
+	getOccupiedAdjacentLocations() and get(). BoundedGrid and UnboundedGrid provide implementations of get().
 
 4. Why must the get method, which returns an object of type E, be used in the
 getEmptyAdjacentLocations method when this method returns
 locations, not objects of type E?
+	get() must be used to check if the adjecent tyles contain anything before that location can be added to the list of empty adjacent locations.
 
 5. What would be the effect of replacing the constant Location.HALF_RIGHT
 with Location.RIGHT in the two places where it occurs in the
 getValidAdjacentLocations method?
+	It would only check the four boxes on each side, it would skip the boxes diagonal of the corner.
