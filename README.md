@@ -1,7 +1,7 @@
 gw45-psychic-octo-meme
 ======================
 
-Gridworld part 4 - 5
+GridWorld Parts 4 and 5
 
 Team Members: 
 
