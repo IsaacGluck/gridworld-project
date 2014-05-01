@@ -1,6 +1,7 @@
-NAME --- TEAM NAME
+NAME: Ben Rothman, Jim Yuan, Isaac Gluck
+TEAM NAME: gw450-psychic-octo-meme
 
-<SSH clone URL of your trio’s GitHub repo>
+git@github.com:IsaacGluck/gw45-psychic-octo-meme.git
 
 APCS pd 8
 
