@@ -1,4 +1,18 @@
+NAME --- TEAM NAME
+
+<SSH clone URL of your trio’s GitHub repo>
+
+APCS pd 8
+
+HW35 -- GridWorld, Part 5
+
+2014-05-01
+
+
+
+Do you know?
 Set 10
+
 1. Where is the isValid method specified? Which classes provide an
 implementation of this method?
 	It's specified in the Grid interface. BoundedGrid and UnboundedGrid.
@@ -21,19 +35,22 @@ with Location.RIGHT in the two places where it occurs in the
 getValidAdjacentLocations method?
 	It would only check the four boxes on each side, it would skip the boxes diagonal of the corner.
 
+
 Do you know?
 Set 11
+
 1.What ensures that a grid has at least one valid location? 
 
 
-2. How is the number of columns in the grid determined by the getNumCols method? What assumption about the grid makes this possible? 
+2. How is the number of columns in the grid determined by the getNumCols method? What assumption
+about the grid makes this possible? 
 
 
 
 3.  What are the requirements for a Location to be valid in a BoundedGrid? 
 
 
-In the next four questions, let r = number of rows,c = number of columns, and n = number of occupied locations. 
+.........In the next four questions, let r = number of rows,c = number of columns, and n = number of occupied locations. 
 
 
 4. What type is returned by the getOccupiedLocations method? What is the time complexity (Big-Oh) for this method? 
@@ -42,10 +59,13 @@ In the next four questions, let r = number of rows,c = number of columns, and n 
 5. What type is returned by the get method? What parameter is needed? What is the time complexity (Big-Oh) for this method?
 
 
-6. What conditions may cause an exception to be thrown by the put method? What is the time complexity (Big-Oh) for this method? 
+6. What conditions may cause an exception to be thrown by the put method? What is the time complexity (Big-Oh) 
+for this method? 
 
 
-7. What type is returned by the remove method? What happens when an attempt is made to remove an item from an empty location? What is the time complexity (Big-Oh) for this method?
+7. What type is returned by the remove method? What happens when an attempt is made to remove an item from an 
+empty location? What is the time complexity (Big-Oh) for this method?
 
 
-8. Based on the answers to questions 4,5, 6, and 7, would you consider this an efficient implementation? Justify your answer. 
+8. Based on the answers to questions 4,5, 6, and 7, would you consider this an efficient implementation? 
+Justify your answer. 
