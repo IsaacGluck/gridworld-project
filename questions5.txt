@@ -41,32 +41,40 @@ Do you know?
 Set 11
 
 1.What ensures that a grid has at least one valid location? 
-
+UnboundedGrid will always have one valid location because it has infinite valid locations. 
+BoundedGrid's construct throws an error if either rows or column are 0 are less, so there must be at least a 1X1 grid
+which would ensure one valid location.
 
 2. How is the number of columns in the grid determined by the getNumCols method? What assumption
 about the grid makes this possible? 
-
+Since occupantArray is a 2D array, its a length of the array inside the first array (Col is inside Row). That Row will be non
+null, which is guaranteed because of the constructor. 
 
 
 3.  What are the requirements for a Location to be valid in a BoundedGrid? 
-
+It must be between 0 and numRows (inclusive, exclusive) and 0 and numCols (inclusive, exclusive).
 
 .........In the next four questions, let r = number of rows,c = number of columns, and n = number of occupied locations. 
 
 
 4. What type is returned by the getOccupiedLocations method? What is the time complexity (Big-Oh) for this method? 
-
+An ArrayList of Locations is returned. O(n).
 
 5. What type is returned by the get method? What parameter is needed? What is the time complexity (Big-Oh) for this method?
-
+Type E. It's whatever type BoundedGrid is cast to be of, and you need to say what location you want to get.
+O(1).
 
 6. What conditions may cause an exception to be thrown by the put method? What is the time complexity (Big-Oh) 
 for this method? 
-
+1.If the location isn't valid.
+2. If you are trying to input a null object.
+O(1)
 
 7. What type is returned by the remove method? What happens when an attempt is made to remove an item from an 
 empty location? What is the time complexity (Big-Oh) for this method?
-
+Type E. It throws an IllegalArgumentException.
+O(1).
 
 8. Based on the answers to questions 4,5, 6, and 7, would you consider this an efficient implementation? 
 Justify your answer. 
+Yes I would because only one method has a Big-Oh greater than 1; everything else is running at the fastest speed possible. 
