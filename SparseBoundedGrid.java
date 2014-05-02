@@ -21,6 +21,7 @@ public class SparseBoundedGrid implements Grid<Object>{
     //linked list entries hold grid occupant and column index
     //each entry in array list is linked list or null if empty row
     ArrayList<SparseGridNode> sparray;
+    ArrayList<Location> loc;
     int _numRows;    
     
     public SparseBoundedGrid(int rows){
@@ -61,8 +62,33 @@ public class SparseBoundedGrid implements Grid<Object>{
     
     //returns the locations empty in the 1 surrouding squares
     public ArrayList<Location> getEmptyAdjacentLocations(Location loc){
-	ArrayList<Location> = new ArrayList<Location>();
-	if(new Location(loc.getRow() + 1, loc.getCol()))
-    }
+	ArrayList<Location> eadj = new ArrayList<Location>();
+	//same format eight times
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	if(new Location(loc.getRow() + 1, loc.getCol())){
+	    eadj.add(new Location(loc.getRow() + 1, loc.getCol()));
+	}
+	
+    }    
     
 }
